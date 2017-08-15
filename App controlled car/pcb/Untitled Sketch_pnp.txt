@@ -1,0 +1,23 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=Untitled Sketch
+*Date=16:28:25
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;29.5096;8.31712;-90;Bottom;Part2
+2;9V;;56.1796;-11.3679;-180;Bottom;VCC1
+3;;;12.9996;-52.0079;180;Bottom;M1
+4;;;53.6396;-52.0079;0;Bottom;J1
+5;;1206 [SMD];51.0996;-31.4079;90;Bottom;LED1
+6;;;6.64958;-10.0979;90;Bottom;M2
+7;;;23.1509;-30.4179;90;Bottom;Part1
+8;;THT;29.5096;-46.9279;90;Bottom;IC1
