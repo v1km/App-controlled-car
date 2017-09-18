@@ -1,0 +1,47 @@
+arduino--------------l293d
+pin8-----------------pin2
+pin9-----------------pin7
+pin11----------------pin15
+pin12----------------pin10
+gnd------------------pin4,pin5,pin12,pin13
+5v------------------pin1,pin16,pin9
+
+
+external power source :
+postive of external source (+)----pin8 of l293d
+gnd of external--------pin 4,5,12,13
+
+
+hc 05 connections
+arduino------------hc05
+pin0(rx)-----------tx
+pin1(tx)-----------rx
+5v---------------vcc
+gnd--------------gnd
+
+
+other connection:
+arduino ----------- dev
+pin 13------------- led positive
+pin 10-------------buzzer prositive
+gnd -------------- led,buzzer gnd
+
+L293d other connections:
+l293d------------ dev
+pin3-------------output1 of motor1 
+pin6-------------output2 of motor1 
+pin14------------output1 of motor2 
+pin11------------output2 of motor2
+
+
+note:
+1)while uploading sketch do not power bluetooth
+after uploading power it.
+2)first check the input1 and input2 of motors
+using battery and verify input by clockwise and anticlockwise
+http://www.rakeshmondal.info/L293D-Motor-Driver
+accordingly connect input1 and input2 to l293d
+of both the motors.
+3)make common gnd of pin4,pin5,pin12,pin13 of l293d ,arduino gnd ,hc05 gnd,external gnd,led and buzzer
+4) make 5v common for pin1,pin16,pin9 of l293d,hc05 vcc,arduino5v.
+5)set baudrate to 9600bps and set nl &cr in the serialmonitor.
